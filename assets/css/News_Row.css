@@ -1,0 +1,40 @@
+#cek1 {
+  margin-bottom: 50px;
+}
+
+.paragrafFIx {
+  color: white;
+}
+
+.kelas1 {
+  object-fit: cover;
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.col.kolom1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5em;
+  background: rgba(0,0,0,0.56);
+  color: rgba(33,37,41,0);
+}
+
+.paragrafFIx {
+  margin-top: 30px;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+#cek1 {
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  #cek1 {
+    font-size: 1.5em;
+  }
+}
+
