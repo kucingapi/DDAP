@@ -24,12 +24,32 @@
   border-radius: 0;
 }
 
-#card-1{
-  background-image: url("/assets/img/ian-lu-DeDSBI2zQ2E-unsplash.jpg");
+.card-content{
   min-height: 10em;
   width: 18em;
   background-position: center;
   background-size: cover;
+}
+
+
+.card-1{
+  background-image: url("/assets/img/smart\ city\ featrure.jpg");
+}
+
+.card-2{
+  background-image: url("/assets/img/Community.jpg");
+}
+
+.card-3{
+  background-image: url("/assets/img/customer\ service.jpg");
+}
+
+.card-4{
+  background-image: url("/assets/img/train.jpg");
+}
+
+.card-5{
+  background-image: url("/assets/img/news.jpg");
 }
 
 body {
