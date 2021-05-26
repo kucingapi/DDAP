@@ -1,0 +1,129 @@
+@media (max-width: 580px) {
+  h1.hero-title, h2.hero-title, h3.hero-title {
+    text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 3em !important;
+  }
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0,0,0,0.4);
+  color: #fff;
+  font-size: 7em;
+}
+
+div.jumbotron.carousel-hero {
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.jumbotron.hero-nature {
+  background-image: url('../../assets/img/ian-lu-DeDSBI2zQ2E-unsplash.jpg');
+}
+
+div.jumbotron.hero-photography {
+  background-image: url('../../assets/img/muhammad-abdullah-2iSF9aEnBiE-unsplash.jpg');
+}
+
+div.jumbotron.hero-technology {
+  background-image: url('../../assets/img/lily-banse-mjXf6po0TWs-unsplash.jpg');
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  /*box-shadow: 0 0 0 0 #048f83!important;*/
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #016090;
+  border-color: #016090;
+}
+
+.btn.btn-primary {
+  background-color: var(--purple);
+  /*border-color: #048f83!important;*/
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  /*box-shadow: 0 0 0 .2rem rgba(0,123,255,.5);*/
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.3);
+  /*background: black;*/
+  /*opacity: 100;*/
+  padding: 1em;
+}
+
+body {
+  background: var(--gray-dark);
+}
+
+.card-header {
+  background: var;
+}
+
+.card-body {
+  background: #121212;
+}
+
+.btn.btn-primary {
+  color: black;
+  font-weight: 600;
+}
+
+#item-1-2-tab {
+}
+
+.btn.btn-primary.hero-button.plat {
+  box-shadow: 0;
+}
+
+.btn.btn-primary.hero-button.plat {
+  border-color: purple;
+}
+
+.btn.btn-primary.hero-button {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 800;
+}
+
+.card-title {
+  font-size: 3em;
+}
+
+.card-description {
+  font-size: 2em;
+}
+

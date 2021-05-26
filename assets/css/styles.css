@@ -1,0 +1,99 @@
+@media (min-width:576px) {
+  .card-group > .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-bottom: 0;
+  }
+}
+.btn{
+  border: 0;
+  border-radius: 3px;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--dark);
+  /*background-clip: border-box;*/
+  border: 0;
+  border-radius: 0;
+}
+
+#card-1{
+  background-image: url("/assets/img/ian-lu-DeDSBI2zQ2E-unsplash.jpg");
+  min-height: 10em;
+  width: 18em;
+  background-position: center;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--light);
+  text-align: left;
+  /*background-color: #fff;*/
+}
+
+.card-header {
+  background: var(--gray-dark);
+  padding: .75rem 0.65rem;
+  margin-bottom: 0;
+  /*background-color: rgba(0,0,0,.03);*/
+  /*border-bottom: 1px solid rgba(0,0,0,.125);*/
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #BB86FC;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --black: #121212;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  font-weight: 450;
+  padding: .5rem 1rem;
+}
+
+html > * {
+  font-family: 'Doppio One' !important;
+  /*line-height: 1.15;*/
+  /*-webkit-text-size-adjust: 100%;*/
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+

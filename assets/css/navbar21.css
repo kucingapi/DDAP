@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  #navcol-1 li a {
+    text-align: center;
+  }
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  color: rgba(255,255,255,0.9);
+}
+
+.navbar-brand.logo {
+  color: rgba(222,173,0,0.9);
+}
+
+#logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.nav-link.borderfixMenu {
+  background: #cf9500;
+  border-radius: 10px;
+  color: rgb(0,0,0);
+  font-family: Aleo, serif;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav.cek1 {
+    border-bottom: 1px none rgb(255,255,255) ;
+  }
+}
+
+#navcol-1 {
+  color: rgb(255,255,255);
+}
+
