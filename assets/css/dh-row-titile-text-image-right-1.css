@@ -1,0 +1,44 @@
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+audio, canvas, img, video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.post-card {
+  border-style: none;
+  height: 20em;
+  width: 15em;
+  object-fit: cover;
+}
+
+.card-post {
+  border-style: none;
+  height: 20em;
+  width: 30em;
+  object-fit: cover;
+}
+
+.post-small {
+  border-style: none;
+  height: 20em;
+  width: 40em;
+}
+
+.post-sport {
+  border-style: none;
+  height: 40em;
+  /*width: 40em;*/
+  object-fit: cover;
+}
+
+.post {
+  border-style: none;
+  height: 30em;
+  width: 30em;
+  object-fit: cover;
+}
+

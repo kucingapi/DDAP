@@ -1,0 +1,27 @@
+.plat {
+  border-radius: 0px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #016090;
+  border-color: #016090;
+}
+
+.btn.btn-primary {
+  background-color: var(--purple);
+}
+
+.btn.btn-primary {
+  color: black;
+  font-weight: 600;
+}
+
+.btn.btn-primary.hero-button.plat {
+  box-shadow: 0;
+}
+
+.btn.btn-primary.hero-button.plat {
+  border-color: purple;
+}
+
