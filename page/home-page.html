@@ -23,6 +23,8 @@
 
     <link rel="stylesheet" type="text/css" href="../assets/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="../assets/slick/slick-theme.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -96,7 +98,7 @@
     <div class="container mb-5">
         <div class="slider">
             <div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" data-aos="flip-left" style="width: 18rem;">
                     <div class="card-content card-1"><span></span></div>
                     <div class="card-body">
                         <h5 class="card-title">Feature</h5>
@@ -106,7 +108,7 @@
                 </div>
             </div>
             <div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" data-aos="flip-left" style="width: 18rem;">
                     <div class="card-content card-2"><span></span></div>
                     <div class="card-body">
                         <h5 class="card-title">Comunity</h5>
@@ -116,7 +118,7 @@
                 </div>
             </div>
             <div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" data-aos="flip-left" style="width: 18rem;">
                     <div class="card-content card-3"><span></span></div>
                     <div class="card-body">
                         <h5 class="card-title">Service</h5>
@@ -126,7 +128,7 @@
                 </div>
             </div>
             <div>
-                <div class="card" style="width: 18rem;">
+                <div class="card" data-aos="flip-left" style="width: 18rem;">
                     <div class="card-content card-5"><span></span></div>
                     <div class="card-body">
                         <h5 class="card-title">News</h5>
@@ -140,7 +142,7 @@
         <!-- why navlink -->
         <div class="container">
             <h1>Why</h1>
-            <div id="card_group">
+            <div id="card_group" data-aos="zoom-in">
                 <div class="card mb-5">
                     <div class="card-header">
                         <ul class="nav nav-tabs card-header-tabs" role="tablist">
@@ -182,7 +184,7 @@
 
             <!-- how navlink -->
             <h1>How</h1>
-            <div id="card_group" class="mb-5">
+            <div id="card_group" data-aos="zoom-in" class="mb-5">
                 <div class="card">
                     <div class="card-header">
                         <ul class="nav nav-tabs card-header-tabs" role="tablist">
@@ -290,6 +292,12 @@
         <script type="text/javascript" src="../assets/slick/slick.min.js"></script>
 
         <script src="/../assets/js/slider.js"></script>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script>AOS.init()</script>
+
 
 </body>
 
