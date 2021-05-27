@@ -1,16 +1,12 @@
-slide {
-  min-height: 10em;
+body{
+  color: white;
+  
 }
-
-.corousel-item {
-  min-height: 20em;
-}
-
 .carousel-hero {
-  min-height: 29em;
+  min-height: 30em;
 }
 
-#carousel {
-  border: 0;
+.card-description {
+  font-size: 2em;
 }
 
