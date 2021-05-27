@@ -1,0 +1,82 @@
+.col {
+  padding: 0;
+}
+
+container {
+  padding: 0;
+  margin: 0;
+}
+
+.dark-background {
+  color: var(--bs-white);
+  background: var(--bs-dark);
+}
+
+.img-post {
+}
+
+.img-post {
+  max-height: 250px;
+  margin-bottom: 1rem;
+}
+
+.img-container {
+  width: 30em;
+  height: 20em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#img-2 {
+  width: 30em;
+}
+
+#img-1 {
+  background-image: url('../../assets/img/alwin-kroon-9ZpP9UnPzoU-unsplash.jpg');
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: var(--bs-light);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #BB86FC;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #343A40;
+  --bs-gray-dark: #343A40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #F8F9FA;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+.black-background {
+  background-color: var(--bs-gray-dark);
+  color: var(--bs-light);
+}
+

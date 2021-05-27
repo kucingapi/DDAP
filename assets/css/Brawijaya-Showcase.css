@@ -1,0 +1,53 @@
+.btn {
+  background: var(--bs-purple);
+}
+
+.showcase-img {
+  min-height: 30em;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.showcase-text {
+  padding: 3rem;
+}
+
+.showcase-title {
+  font-size: 2em;
+}
+
+.btn-showcase {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-weight: 800;
+}
+
+.showcase-description {
+  font-size: 1.5em;
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+.btn-dark:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.btn-check:active + .btn-dark, .btn-check:checked + .btn-dark, .btn-dark.active, .btn-dark:active, .show > .btn-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #903DF5;
+  border-color: #191c1f;
+}
+

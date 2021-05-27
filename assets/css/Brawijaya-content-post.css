@@ -1,0 +1,80 @@
+.btn {
+  background: var(--bs-purple);
+}
+
+.learn-more {
+  padding: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 5em;
+}
+
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+audio, canvas, img, video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.post {
+  border-style: none;
+  height: 30em;
+  width: 30em;
+  object-fit: cover;
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+.col {
+  padding: 0;
+}
+
+.dark-background {
+  color: var(--bs-white);
+  background: var(--bs-dark);
+}
+
+#img-1 {
+  text-align: right;
+}
+
+.btn-dark:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+#sub-communicator {
+  background-color: var(--bs-gray);
+}
+
+.btn-showcase {
+  font-weight: 100 !important;
+}
+
+.bg-row {
+  background-color: var(--bs-gray-dark);
+}
+
+.bg-color {
+  background-color: var(--bs-gray-dark);
+}
+
+#background {
+  background-image: Public Complaint Service.png;
+}
+
+#col1 {
+  max-width: 50px;
+}
+

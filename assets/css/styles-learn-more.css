@@ -1,0 +1,16 @@
+slide {
+  min-height: 10em;
+}
+
+.corousel-item {
+  min-height: 20em;
+}
+
+.carousel-hero {
+  min-height: 29em;
+}
+
+#carousel {
+  border: 0;
+}
+
