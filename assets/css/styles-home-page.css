@@ -46,6 +46,11 @@ body {
 .card{
   border-color: var(--gray-dark) !important;
 }
+.btn{
+  background-color: var(--purple) !important;
+  color: var(--light) !important;
+  border: var(--purple) !important;
+}
 
 .card-header {
   background: var(--gray-dark) !important;
@@ -58,7 +63,7 @@ body {
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
-  --purple: #BB86FC;
+  --purple: #BB86FC !important;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
