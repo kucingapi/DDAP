@@ -1,0 +1,86 @@
+img {
+  position: relative;
+  margin-top: 20px;
+  max-width: 70%;
+  height: auto;
+  border-radius: 1.5rem;
+  margin-bottom: 20px;
+  opacity: 80%;
+}
+
+.img-thumbnail {
+  border-radius: 30rem;
+}
+
+@media (max-width: 576px) {
+  .row {
+    column-gap: 0px;
+  }
+}
+
+.column-md-4 {
+}
+
+#service .service-item .service-link .service-hover {
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all ease .5s;
+  opacity: 0;
+  background: rgba(254,209,54,.9);
+}
+
+#services {
+  padding: 20px;
+}
+
+.service-hover {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  width: 180px;
+}
+
+#services {
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  font-size: 39px;
+  color: #ffffff;
+}
+
+.position {
+  position: relative;
+}
+
+.service-link {
+}
+
+#mid {
+}
+
+#about {
+}
+
+#row-2 {
+  column-gap: 50px;
+}
+
+#img2 {
+  max-width: 150px;
+  opacity: 100%;
+}
+
+#cont2 {
+  padding: 30px;
+}
+
+body {
+  font-family: 'Doppio One' !important;
+}
+
